@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "ferkhaled-devsecops-prj3"
-    key    = "terraform.tfstate"
+    key    = "terraform.tf"
     region = "us-east-1"
   }
 
